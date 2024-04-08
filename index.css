@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header_body{
+  height:80px;
+  width:100%;
+  display: grid;
+  grid-template-columns:14% 60% 8% 8% 10%;
+  align-items: center;
+  justify-items: center;
+  background-color:black;
+}
+.logo_img{
+  height:80px;
+  width:80%;
+}
+.search_bar{
+  height:50px;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  background-color: white;
+}
+.search_bar_select_option{
+  height:50px;
+  width:8%;
+}
+.search_bar_text{
+  height:44px;
+  width:84%;
+}
+.search_bar_button{
+  height:50px;
+  width:8%;
+  
+}
+.search_bar_img{
+  height:40px;
+  width:100%;
+}
+.add_card_img{
+  height:50px;
+  width:50%;
+
+}
+.login,.return{
+  height:50px;
+  width:80%;
+  background-color: black;
+  border-width: 0px;
+  color:white;
+  font-size:larger;
+  
+}
+.product_card{
+  height:400px;
+  width:350px;
+   display: grid;
+   align-items: center;
+   justify-items: center;
+  background-color: white;
+  margin:30px 0px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;;
+}
+.product_item{
+  display: grid;
+  background-color: darkslategray;
+  grid-template-columns:33% 33% 33%;
+  align-items: center;
+  justify-items: center;
+  min-height: 100vh;
+  width:100%;
+}
+.card_item_img{
+
+  height:220px;
+  width:300px;
+}
+.produc_name{
+  min-height:40px;
+  width:350px;
+}
+.price_buy{
+  height:60px;
+  width:100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 10%;
+  align-items: center;
+  justify-items: center;
+}
+.Buy{
+  height:45px;
+  width:120px;
+  background-color: rgb(66, 66, 235);
+  color:white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-width: 0px;
+}
+.Buy:hover{
+  background-color: rgb(39, 193, 39);
+}
